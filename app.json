@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "SudokuApp",
-    "slug": "SudokuApp",
+    "name": "Sudoku",
+    "slug": "corexsudoku",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "resizeMode": "cover",
+      "backgroundColor": "#6c63ff"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -23,11 +23,18 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "backgroundColor": "#6c63ff"
+      },
+      "package": "com.corex.sudoku",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "920d3b61-e8be-4732-acca-212fa6debb8b"
+      }
     }
   }
 }
